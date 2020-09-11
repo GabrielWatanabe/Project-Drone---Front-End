@@ -58,9 +58,9 @@
                   <img src="./assets/boneco.png" style="width: 32px; height: 32px;">
                   <label>{{props.cell_value}}</label>
             </template>
-            <template slot="status" slot-scope="props">
-                  <b-button size="sm" class="mr-1" variant="warning">
-                  {{ props.cell_value }} 
+            <template slot="status">
+                  <b-button style="background-color: green; color: white" size="sm" class="mr-1" variant="warning">
+                  Success 
                   </b-button>
             </template>
             <template slot="battery" slot-scope="props">
